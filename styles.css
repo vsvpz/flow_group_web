@@ -103,6 +103,7 @@
             background-color: transparent;
             border: 1px solid;
             border-color:#ef4d4b ;
+            max-width: 100%;
             line-height: 1;
             margin-bottom: -1px;
             display: block;
