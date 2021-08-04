@@ -62,6 +62,7 @@
             border: 1px solid;
             line-height: 1;
             margin: 0.5em;
+            max-width: 100%;
             padding: 0.5em 1em;
             font-family: 'arial';
             font-style: regular;
@@ -130,7 +131,7 @@
  
 
 
-
+@media screen and (max-width: 400px) {
         .right{position: absolute;
             top: 0;
             bottom: 0;
@@ -144,11 +145,12 @@
    
   .meme {
    display:none;
+
   }
   
   .right {
    display:none;
   }
-  }
+  }}
 
     </style>
