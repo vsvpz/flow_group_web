@@ -1,30 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <title>Get Into The Flow</title>
      <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-
-
-<body>
-
-
-<style>
-{background-color: #1b4b6e;
-}
-
-
+        
         body{
         background-color: #1b4b6e;
          }
 
         h1{
         font-family: 'arial';
-        font-style: regular;
+        font-style: italic;
         font-size: 30px;
-        margin-left: 200px;
+        margin-left: 10px;
         color: #ef4d4b;
+        }
+
+        p{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 30px;
+        color: #1b4b6e;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: left;
+        }
+
+        p:hover{
+                color: #ef4d4b;
+        }
+
+        .btn.yes{
+            background-color: #ef4d4b;
+            margin-bottom: 83px;
+        }
+
+        .btn.yes:hover{
+            background-color: transparent;
+        }
+
+        .btn.no{
+            background-color: #ef4d4b;
+        }
+
+        .btn.no:hover{
+            background-color: transparent;
         }
 
     .menu{
@@ -58,15 +80,21 @@
             }
 
 
-  .meme {
-            margin-left: 100px;
-
+   .meme {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        margin-left: 10%;
             }
 
+            img{
+                max-width: 500px;
+                }
 
-
-
-img{ max-width: 30%; }
 
        
 
@@ -100,20 +128,25 @@ img{ max-width: 30%; }
  
 
 
-.question {
-            line-height: 100px;
-            margin-top: 30px;
-            float: right;
-        }
 
+        .right{position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            margin-top: 20%;
+            padding-right: 5%;
+            }
 
-        .flow{
-            max-width: 30%;
-            margin-right: 0px;
-        }
+        @media screen and (max-width: 500px) {
+   
+  .meme {
+   display:none;
+  }
+  
+  .right {
+   display:none;
+  }
+  }
 
     </style>
-<p>This is a paragraph.</p>
-
-</body>
-</html
