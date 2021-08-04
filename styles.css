@@ -128,20 +128,6 @@
             color: #1b4b6e;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             }
- 
-
-
-@media screen and (max-width: 400px) {
-        .right{position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            width: 50%;
-            margin-top: 20%;
-            padding-right: 5%;
-            }
-
-        @media screen and (max-width: 500px) {
    
   .meme {
    display:none;
