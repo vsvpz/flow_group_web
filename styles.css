@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Into The Flow</title>
+     <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+
+<body>
+
+
+<style>
+{background-color: #1b4b6e;
+}
+
+
+        body{
+        background-color: #1b4b6e;
+         }
+
+        h1{
+        font-family: 'arial';
+        font-style: regular;
+        font-size: 30px;
+        margin-left: 200px;
+        color: #ef4d4b;
+        }
+
+    .menu{
+            display: flex;
+            justify-content: center;
+            }
+
+        
+
+    .mnu {
+            background-color: transparent;
+            border: 1px solid;
+            line-height: 1;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-family: 'arial';
+            font-style: regular;
+            font-size: 18px;
+            color: #ef4d4b;
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+        .mnu:hover {
+            background-color: #ef4d4b;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            color: #1b4b6e;
+            }
+
+
+  .meme {
+            margin-left: 100px;
+
+            }
+
+
+
+
+img{ max-width: 30%; }
+
+       
+
+
+.btn {
+            background-color: transparent;
+            border: 1px solid;
+            border-color:#ef4d4b ;
+            line-height: 1;
+            margin-bottom: -1px;
+            display: block;
+            padding: 0.25em 0.5em;
+            font-family: 'arial';
+            font-style: italic;
+            font-weight: 100;
+            font-size: 20px;
+            text-align: left;
+            color: #ef4d4b; 
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+        .btn:hover {
+            background-color: #ef4d4b;
+            color: #1b4b6e;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+ 
+
+
+.question {
+            line-height: 100px;
+            margin-top: 30px;
+            float: right;
+        }
+
+
+        .flow{
+            max-width: 30%;
+            margin-right: 0px;
+        }
+
+    </style>
+<p>This is a paragraph.</p>
+
+</body>
+</html
