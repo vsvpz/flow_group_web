@@ -49,11 +49,6 @@
             background-color: transparent;
         }
 
-    .menu{
-            display: flex;
-            justify-content: center;
-            }
-
         
 
     .mnu {
@@ -168,6 +163,11 @@
             width: 50%;
             margin-top: 20%;
             padding-right: 5%;
+            }
+
+            .menu{
+            display: flex;
+            justify-content: center;
             }
 
         
