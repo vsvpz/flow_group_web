@@ -194,7 +194,8 @@
         img{
                 max-width: 320px;
                 height: auto;
-                margin-top: 20px;
+                position: static;
+                top: 100px;
 
             }
 
