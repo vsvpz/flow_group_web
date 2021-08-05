@@ -191,6 +191,14 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
+        .meme {
+        position: static;
+        top: 100px;
+        bottom: 0;
+        left: 0;
+        
+            }
+
         img{
                 max-width: 320px;
                 height: auto;
@@ -199,12 +207,7 @@
 
             }
 
-        .meme{
-            z-index: 2;
-            margin-top: 20px;
-            position: static;
-                top: 100px;
-        }
+        
 
         .right{
             z-index: 1;
