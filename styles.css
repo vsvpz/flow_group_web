@@ -152,25 +152,139 @@
         }
 
 
-        @media screen and (max-width: 1200px){
+        @media screen and (max-width: 1400px){
+
+        h1{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 24px;
+        margin-left: 10px;
+        color: #ef4d4b;
+        }
+
+        p{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 24px;
+        color: #1b4b6e;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: left;
+        }
+
+        p:hover{
+                color: #ef4d4b;
+        }
             
             .meme {
         position: absolute;
         display: flex;
         justify-content: left;
         align-items: left;
-        top: 0px;
+        top: 10%;
         bottom: 0;
         left: 0;
         
             }
 
             img{
-                max-width: 380px;
+                max-width: 400px;
                 height: auto;
+            }
+
+            .body-text{
+
+            position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 80px;
+
+            }
+
+            .two{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 200px;
+            }
+
+            .question{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+            }
+
+            .answers{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        padding-top: 100px;
+            }
+
+            .answers-two{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 280px;
+            }
+   
+    
+
+            .recenter-button{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 60px;
+            }
+
+            .resources-button{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        padding-top: 150px;
+            }
+
+            .note{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 20%;
             }
    
         }
+
 
         @media screen and (max-width: 500px) {
 
