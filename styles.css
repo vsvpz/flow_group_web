@@ -141,6 +141,23 @@
             }
 
         @media screen and (max-width: 500px) {
+
+        .mnu {
+            background-color: transparent;
+            border: 1px solid;
+            line-height: 1;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-family: 'arial';
+            font-style: regular;
+            font-size: 14px;
+            color: #ef4d4b;
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
    
         .meme {
         width: 100%;
