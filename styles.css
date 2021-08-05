@@ -180,9 +180,12 @@
    
         .meme {
         width: 100%;
-        display: inline;
+        display: flex;
         position: absolute;
+        justify-content: center;
+        align-items: center;
         z-index: 1;
+        margin-top: 20%;
         }
   
         .right {
