@@ -202,6 +202,8 @@
         .meme{
             z-index: 2;
             margin-top: 20px;
+            position: static;
+                top: 100px;
         }
 
         .right{
