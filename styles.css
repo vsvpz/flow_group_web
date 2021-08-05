@@ -163,12 +163,14 @@
         width: 100%;
         display: inline;
         position: absolute;
+        z-index: 1;
         }
   
         .right {
         width: 100%;
         display: inline;
         position: absolute;
+        z-index: 2;
         }
         }
 
