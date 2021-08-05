@@ -177,7 +177,7 @@
          h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 18px;
+        font-size: 24px;
         margin-left: 10px;
         color: #ef4d4b;
         }
@@ -185,7 +185,7 @@
         p{
         font-family: 'arial';
         font-style: italic;
-        font-size: 18px;
+        font-size: 24px;
         color: #1b4b6e;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -226,7 +226,7 @@
                 max-width: 320px;
                 height: auto;
                 position: static;
-                top: 100px;
+                top: 200px;
                 bottom: 0;
                 left: auto;
                 right: auto;
@@ -238,6 +238,7 @@
         .right{
             z-index: 1;
             margin-top: 400px;
+            width: 100%;
         }
 
     
