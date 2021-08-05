@@ -174,6 +174,28 @@
 
         @media screen and (max-width: 500px) {
 
+         h1{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 10px;
+        color: #ef4d4b;
+        }
+
+        p{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 18px;
+        color: #1b4b6e;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: left;
+        }
+
+        p:hover{
+                color: #ef4d4b;
+        }
+
         .mnu {
             background-color: transparent;
             border: 1px solid;
