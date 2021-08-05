@@ -132,6 +132,10 @@
 
 @media screen and (max-width: 400px) {
 
+            .menu {
+                width:  90%;
+            }
+
             .meme {
         position: absolute;
         display: flex;
