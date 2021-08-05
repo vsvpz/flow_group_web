@@ -193,9 +193,10 @@
 
         .meme {
         position: static;
-        top: 100px;
+        top: 200px;
         bottom: 0;
-        left: 0;
+        left: auto;
+        right: auto;
         
             }
 
@@ -204,6 +205,9 @@
                 height: auto;
                 position: static;
                 top: 100px;
+                bottom: 0;
+                left: auto;
+                right: auto;
 
             }
 
