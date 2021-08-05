@@ -143,7 +143,7 @@
 
         @media screen and (max-width: 1920px){
             img{
-                max-width: 100%;
+                max-width: 60%;
                 height: auto;
             }
         }
