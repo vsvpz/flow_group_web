@@ -131,7 +131,8 @@
             }
  
 
-        .right{position: absolute;
+        .right{
+            position: absolute;
             top: 0;
             bottom: 0;
             right: 0;
@@ -139,6 +140,13 @@
             margin-top: 20%;
             padding-right: 5%;
             }
+
+        @media screen and (max-width: 1920px){
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
 
         @media screen and (max-width: 500px) {
 
