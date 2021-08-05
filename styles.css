@@ -161,10 +161,14 @@
    
         .meme {
         width: 100%;
+        display: inline;
+        position: absolute;
         }
   
         .right {
         width: 100%;
+        display: inline;
+        position: absolute;
         }
         }
 
