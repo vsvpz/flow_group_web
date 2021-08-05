@@ -143,11 +143,11 @@
         @media screen and (max-width: 500px) {
    
         .meme {
-        display:none;
+        width: 100%;
         }
   
         .right {
-        display:none;
+        width: 100%;
         }
         }
 
