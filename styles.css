@@ -6,6 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         
+        <body>
+
+
+<style>
+{background-color: #1b4b6e;
+}
+        
         body{
         background-color: #1b4b6e;
          }
@@ -49,6 +56,11 @@
             background-color: transparent;
         }
 
+        .menu{
+            display: flex;
+            justify-content: center;
+            }
+
         
 
     .mnu {
@@ -68,11 +80,12 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
-        .mnu:hover {
+    .mnu:hover {
             background-color: #ef4d4b;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             color: #1b4b6e;
             }
+    
 
 
    .meme {
@@ -83,21 +96,14 @@
         top: 0px;
         bottom: 0;
         left: 0;
-        max-width: 50%;
-        margin-top: 5%;
-        vertical-align: middle;
+        margin-left: 10%;
             }
 
             img{
-                max-width: 60%;
-                height: auto;
+                max-width: 500px;
                 }
 
-
-       
-
-
-.btn {
+        .btn {
             background-color: transparent;
             border: 1px solid;
             border-color:#ef4d4b ;
@@ -118,37 +124,12 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
-        .btn:hover {
+            .btn:hover {
             background-color: #ef4d4b;
             color: #1b4b6e;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             }
  
-
-@media screen and (max-width: 400px) {
-
-            .menu {
-                width:  90%;
-            }
-
-            img{
-                max-width: 100%;
-                height: auto;
-                }
-
-            .meme {
-        width: 100%;
-        vertical-align: middle;
-            }
-
-
-            .right{position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-           width: 80%;
-            margin-top: 20%;
-            }}
 
         .right{position: absolute;
             top: 0;
@@ -159,12 +140,15 @@
             padding-right: 5%;
             }
 
-            .menu{
-            display: flex;
-            justify-content: center;
-            }
-
-        
-  }
+        @media screen and (max-width: 500px) {
+   
+        .meme {
+        display:none;
+        }
+  
+        .right {
+        display:none;
+        }
+        }
 
     </style>
