@@ -5,15 +5,7 @@
      <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        
-        <body>
-
-
-<style>
-{background-color: #1b4b6e;
-}
-        
-        body{
+     body{
         background-color: #1b4b6e;
          }
 
@@ -39,33 +31,17 @@
                 color: #ef4d4b;
         }
 
-        .btn.yes{
-            background-color: #ef4d4b;
-            margin-bottom: 83px;
-        }
-
-        .btn.yes:hover{
-            background-color: transparent;
-        }
-
-        .btn.no{
-            background-color: #ef4d4b;
-        }
-
-        .btn.no:hover{
-            background-color: transparent;
-        }
-
         .menu{
             display: flex;
             justify-content: center;
             }
 
         
-
     .mnu {
             background-color: transparent;
             border: 1px solid;
+            position: relative;
+            float: center;
             line-height: 1;
             margin: 0.5em;
             padding: 0.5em 1em;
@@ -85,10 +61,26 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             color: #1b4b6e;
             }
-    
+
+        .btn.yes{
+            background-color: #ef4d4b;
+            margin-bottom: 83px;
+        }
+
+        .btn.yes:hover{
+            background-color: transparent;
+        }
+
+        .btn.no{
+            background-color: #ef4d4b;
+        }
+
+        .btn.no:hover{
+            background-color: transparent;
+        }
 
 
-   .meme {
+    .meme {
         position: absolute;
         display: flex;
         justify-content: center;
@@ -99,11 +91,11 @@
         margin-left: 10%;
             }
 
-            img{
+    img{
                 max-width: 500px;
                 }
 
-        .btn {
+     .btn {
             background-color: transparent;
             border: 1px solid;
             border-color:#ef4d4b ;
@@ -124,14 +116,13 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
-            .btn:hover {
+    .btn:hover {
             background-color: #ef4d4b;
             color: #1b4b6e;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             }
- 
 
-        .right{position: absolute;
+    .right{position: absolute;
             top: 0;
             bottom: 0;
             right: 0;
@@ -140,7 +131,7 @@
             padding-right: 5%;
             }
 
-        @media screen and (max-width: 1920px){
+     @media screen and (max-width: 1920px){
             
             .meme {
         position: absolute;
@@ -217,4 +208,3 @@
         }
 
     </style>
-
