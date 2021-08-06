@@ -354,8 +354,8 @@
             display: flex;
             justify-content: left;
             text-align: left;
-            top: 420px;
-            left: 0%;
+            top: 250px;
+            left: 15%;
             bottom: 0;
             right: 0;
             padding-right: 0;
@@ -392,8 +392,8 @@
             }
 
             img{
-                max-width: 320px;
-                height: auto;
+                max-width: auto;
+                height: 220px;
                 display: flex;
             justify-content: center;
             }
@@ -424,6 +424,7 @@
 
             .answers{
                 display: flex;
+                position: static;
             justify-content: center;
         padding-top: 140px;
         margin-left: 10px;
