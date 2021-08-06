@@ -7,6 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
+    @font-face{
+            font-family: 'briar-display';
+            src: url('assets/briar-display.otf');
+        }
+    
+    @media screen and (max-width: 1920px){
+
        /* unvisited link */
         a:link {
         color: #ef4d4b;
@@ -30,6 +37,69 @@
         color: #ef4d4b;
         text-decoration: none;
         }
+
+        .resources {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 800px;
+    }
+
+        .resources-list {
+        margin-left: 10%;
+     }
+
+        .archives {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 800px;
+    }
+
+        .archives-list {
+        margin-left: 10%;
+     }
+
+        .designers {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 800px;
+    }
+     
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            }
+
+        .mnu.flow{
+        font-family: briar-display;
+        font-size: 18.30px;
+
+    }
+
+        
+
+    .mnu {
+            background-color: transparent;
+            border: 1px solid;
+            line-height: 1;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-family: 'arial';
+            font-style: regular;
+            font-size: 18px;
+            color: #ef4d4b;
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+        .mnu:hover {
+            background-color: #ef4d4b;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            color: #1b4b6e;
+            }
 
         .btn {
             background-color: transparent;
@@ -87,6 +157,154 @@
         h2:hover{
             color: #1b4b6e;
             text-decoration: none;
+        }
+        }
+
+ @media screen and (max-width: 800px){
+
+       /* unvisited link */
+        a:link {
+        color: #ef4d4b;
+        text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+        color: #ef4d4b;
+        text-decoration: none;
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: #1b4b6e;
+        text-decoration: none;
+        }
+
+        /* selected link */
+        a:active {
+        color: #ef4d4b;
+        text-decoration: none;
+        }
+
+        .resources {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 250px;
+    }
+
+        .resources-list {
+        margin-left: 10%;
+     }
+
+        .archives {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 250px;
+    }
+
+        .archives-list {
+        margin-left: 10%;
+     }
+     
+        .designers {
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 250px;
+    }
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            }
+
+        .mnu.flow{
+        font-family: briar-display;
+        font-size: 14.30px;
+
+    }
+
+        
+
+    .mnu {
+            background-color: transparent;
+            border: 1px solid;
+            line-height: 1;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-family: 'arial';
+            font-style: regular;
+            font-size: 14px;
+            color: #ef4d4b;
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+        .mnu:hover {
+            background-color: #ef4d4b;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            color: #1b4b6e;
+            }
+
+        .btn {
+            background-color: transparent;
+            border: 1px solid;
+            border-color:#ef4d4b ;
+            line-height: 1;
+            margin-bottom: -1px;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            padding: 0.25em 0.5em;
+            font-family: 'arial';
+            font-style: italic;
+            font-weight: 100;
+            font-size: 20px;
+            text-align: left;
+            color: #ef4d4b; 
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+        .btn:hover {
+            background-color: #ef4d4b;
+            text-color: #1b4b6e;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+
+
+        body{
+        background-color: #1b4b6e;
+         }
+
+        h1{
+        font-family: 'arial';
+        font-style: regular;
+        font-size: 18px;
+        color: #ef4d4b;
+        }
+
+        h2{
+        font-family: 'arial';
+        font-style: italic;
+        font-weight: 100;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        color: #ef4d4b;
+        text-decoration: none;
+        }
+
+        h2:hover{
+            color: #1b4b6e;
+            text-decoration: none;
+        }
         }
 
 
