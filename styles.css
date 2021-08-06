@@ -324,7 +324,7 @@
          h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 10px;
         margin-right: 10px;
         color: #ef4d4b;
@@ -338,7 +338,7 @@
         p{
         font-family: 'arial';
         font-style: italic;
-        font-size: 20px;
+        font-size: 18px;
         color: #1b4b6e;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -402,18 +402,16 @@
 
 
         .body-text{
-
             display: flex;
             justify-content: center;
-        margin-top: 100px;
-
+        margin-top: 50px;
             }
 
             .two{
                 display: flex;
             justify-content: center;
             position: fixed;
-        margin-top: 225px;
+        margin-top: 170px;
             }
 
             .question{
@@ -434,7 +432,7 @@
                 display: flex;
             justify-content: center;
             position: fixed;
-        margin-top: 320px;
+        margin-top: 240px;
         margin-left: 10px;
             }
    
