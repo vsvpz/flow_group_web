@@ -13,7 +13,7 @@
         font-family: 'arial';
         font-style: italic;
         font-size: 30px;
-        margin-left: 10px;
+        margin-left: 0px;
         color: #ef4d4b;
         }
 
@@ -88,7 +88,6 @@
         top: 0px;
         bottom: 0;
         left: 0;
-        margin-left: 10%;
             }
 
     img{
@@ -108,6 +107,7 @@
             font-weight: 100;
             font-size: 20px;
             text-align: left;
+            margin-right: 10px;
             color: #ef4d4b; 
             cursor: pointer;
             display: inline-block;
@@ -122,14 +122,6 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             }
 
-    .right{position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            width: 50%;
-            margin-top: 20%;
-            padding-right: 5%;
-            }
 
      @media screen and (max-width: 1920px){
             
@@ -141,6 +133,7 @@
         top: 0px;
         bottom: 0;
         left: 0;
+        margin-left: 10%;
         
             }
 
@@ -151,21 +144,38 @@
    
         }
 
+        .right{position: absolute;
+            top: 0;
+            left: 50%;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            margin-top: 20%;
+            padding-right: 5%;
+            display: flex;
+            justify-content: left;
+            }
+
+        .question{
+            position: fixed;
+            left: 50%;
+            margin-left: 0px;
+        }
+
 
         @media screen and (max-width: 1400px){
 
         h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 24px;
-        margin-left: 10px;
+        font-size: 30px;
         color: #ef4d4b;
         }
 
         p{
         font-family: 'arial';
         font-style: italic;
-        font-size: 24px;
+        font-size: 30px;
         color: #1b4b6e;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -181,9 +191,9 @@
         display: flex;
         justify-content: left;
         align-items: left;
-        top: 10%;
         bottom: 0;
         left: 0;
+        margin-left: 10%;
         
             }
 
@@ -286,7 +296,7 @@
         }
 
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 1000px) {
 
          h1{
         font-family: 'arial';
@@ -310,6 +320,7 @@
                 color: #ef4d4b;
         }
 
+    
         .mnu {
             background-color: transparent;
             border: 1px solid;
@@ -327,36 +338,80 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
+
         .meme {
         position: static;
-        top: 200px;
         bottom: 0;
         left: auto;
         right: auto;
-        margin-bottom: 20px;
-        
+        margin-top: 30px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+
             }
 
-        img{
+            img{
                 max-width: 320px;
                 height: auto;
-                position: static;
-                top: 200px;
-                bottom: 0;
-                left: auto;
-                right: auto;
+                display: flex;
+            justify-content: center;
+            }
+
+        }
+
+        .body-text{
+
+            display: flex;
+            justify-content: center;
+        margin-top: 80px;
 
             }
 
-        
+            .two{
+                display: flex;
+            justify-content: center;
+        margin-top: 200px;
+            }
 
-        .right{
-            z-index: 1;
-            margin-top: 400px;
-            margin-left: 20px;
-            width: 100%;
+            .question{
+                display: flex;
+            justify-content: center;
+            }
+
+            .answers{
+                display: flex;
+            justify-content: center;
+        padding-top: 100px;
+            }
+
+            .answers-two{
+                display: flex;
+            justify-content: center;
+        margin-top: 280px;
+            }
+   
+    
+
+            .recenter-button{
+                display: flex;
+            justify-content: center;
+        margin-top: 60px;
+            }
+
+            .resources-button{
+                display: flex;
+            justify-content: center;
+        padding-top: 150px;
+            }
+
+            .note{
+                display: flex;
+            justify-content: center;
+        margin-top: 20%;
+            }
+   
         }
-
     
             }
    
