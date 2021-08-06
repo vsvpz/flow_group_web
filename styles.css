@@ -9,6 +9,11 @@
         background-color: #1b4b6e;
          }
 
+        @font-face{
+            font-family: 'briar-display';
+            src: url('assets/briar-display.otf');
+        }
+
         h1{
         font-family: 'arial';
         font-style: italic;
@@ -36,6 +41,11 @@
             justify-content: center;
             }
 
+    .mnu.flow{
+        font-family: briar-display;
+        font-size: 18.30px;
+
+    }
         
     .mnu {
             background-color: transparent;
@@ -360,6 +370,12 @@
             right: 0;
             padding-right: 0;
             }
+
+        .mnu.flow{
+        font-family: briar-display;
+        font-size: 14.30px;
+
+    }
     
         .mnu {
             background-color: transparent;
