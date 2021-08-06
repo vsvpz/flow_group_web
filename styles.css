@@ -90,9 +90,7 @@
         left: 0;
             }
 
-    img{
-                max-width: 500px;
-                }
+
 
      .btn {
             background-color: transparent;
@@ -138,30 +136,38 @@
             }
 
             img{
-                max-width: 500px;
+                max-width: 400px;
                 height: auto;
             }
    
         }
 
-        .right{position: absolute;
+        .right{
+            position: fixed;
+            display: flex;
+            justify-content: left;
             top: 0;
             left: 50%;
             bottom: 0;
             right: 0;
-            width: 50%;
             margin-top: 20%;
             padding-right: 5%;
-            display: flex;
-            justify-content: left;
             }
 
         .question{
             position: fixed;
-            left: 50%;
+            display: flex;
+            justify-content: left;
+            margin-left: 0;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .answers{
             margin-left: 0px;
         }
 
+        }
 
         @media screen and (max-width: 1400px){
 
@@ -222,8 +228,7 @@
         align-items: left;
         top: auto;
         bottom: auto;
-        left: 50%;
-        margin-top: 200px;
+        margin-top: 20px;
             }
 
             .question{
@@ -234,6 +239,8 @@
         top: auto;
         bottom: auto;
         left: 50%;
+        margin-left: 0px;
+            margin-right: 0px;
             }
 
             .answers{
@@ -245,6 +252,7 @@
         bottom: auto;
         left: 50%;
         padding-top: 100px;
+        margin-left: 0px;
             }
 
             .answers-two{
@@ -256,6 +264,7 @@
         bottom: auto;
         left: 50%;
         margin-top: 280px;
+        margin-left: 0px;
             }
    
     
@@ -269,6 +278,7 @@
         bottom: auto;
         left: 50%;
         margin-top: 60px;
+        margin-left: 0px;
             }
 
             .resources-button{
@@ -279,7 +289,20 @@
         top: auto;
         bottom: auto;
         left: 50%;
-        padding-top: 150px;
+        margin-top: 300px;
+        margin-left: 0px;
+            }
+
+            .resources-button{
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 300px;
+        margin-left: 0px;
             }
 
             .note{
@@ -290,7 +313,7 @@
         top: auto;
         bottom: auto;
         left: 50%;
-        margin-top: 20%;
+        margin-top: 200px;
             }
    
         }
@@ -303,7 +326,13 @@
         font-style: italic;
         font-size: 24px;
         margin-left: 10px;
+        margin-right: 10px;
         color: #ef4d4b;
+        }
+
+        h2{
+            margin-left: 10px;
+        margin-right: 10px;
         }
 
         p{
@@ -320,6 +349,17 @@
                 color: #ef4d4b;
         }
 
+        .right{
+            position: fixed;
+            display: flex;
+            justify-content: left;
+            text-align: left;
+            top: 420px;
+            left: 0%;
+            bottom: 0;
+            right: 0;
+            padding-right: 0;
+            }
     
         .mnu {
             background-color: transparent;
@@ -360,21 +400,24 @@
 
         }
 
+
         .body-text{
 
             display: flex;
             justify-content: center;
-        margin-top: 80px;
+        margin-top: 100px;
 
             }
 
             .two{
                 display: flex;
             justify-content: center;
-        margin-top: 200px;
+            position: fixed;
+        margin-top: 225px;
             }
 
             .question{
+                position: fixed;
                 display: flex;
             justify-content: center;
             }
@@ -382,13 +425,16 @@
             .answers{
                 display: flex;
             justify-content: center;
-        padding-top: 100px;
+        padding-top: 140px;
+        margin-left: 10px;
             }
 
             .answers-two{
                 display: flex;
             justify-content: center;
-        margin-top: 280px;
+            position: fixed;
+        margin-top: 320px;
+        margin-left: 10px;
             }
    
     
@@ -396,13 +442,15 @@
             .recenter-button{
                 display: flex;
             justify-content: center;
-        margin-top: 60px;
+        margin-top: 90px;
+        margin-left: 10px;
             }
 
             .resources-button{
+                position: fixed;
                 display: flex;
             justify-content: center;
-        padding-top: 150px;
+        margin-left: 41px;
             }
 
             .note{
