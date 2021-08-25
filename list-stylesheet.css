@@ -11,6 +11,8 @@
             font-family: 'briar-display';
             src: url('assets/briar-display.otf');
         }
+
+        
     
     @media screen and (max-width: 1920px){
 
@@ -46,6 +48,7 @@
 
         .resources-list {
         margin-left: 10%;
+        margin-right: 0;
      }
 
         .archives {
