@@ -44,7 +44,8 @@
     .mnu.flow{
         font-family: briar-display;
         font-size: 18.30px;
-        }
+
+    }
         
     .mnu {
             background-color: transparent;
@@ -135,11 +136,6 @@
 
 
      @media screen and (max-width: 1920px){
-
-        img{
-                max-width: 300px;
-                height: auto;
-            }
             
             .meme {
         position: absolute;
@@ -152,8 +148,13 @@
         margin-left: 10%;
         
             }
-   
 
+            img{
+                max-width: 400px;
+                height: auto;
+            }
+   
+        }
 
         .right{
             position: fixed;
@@ -208,9 +209,9 @@
    
         }
 
-        @media screen and (max-width: 1025px){
+        @media screen and (max-width: 1400px){
 
-        h1{
+            h1{
         font-family: 'arial';
         font-style: italic;
         font-size: 30px;
@@ -234,13 +235,12 @@
             .meme {
         position: absolute;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         bottom: 0;
         left: 0;
-        margin-left: 0;
-        
-            }
+        margin-left: 10%;
+         }
 
             img{
                 max-width: 400px;
@@ -262,7 +262,7 @@
 
             .two{
                 position: fixed;
-        display: flex;
+                display: flex;
         justify-content: left;
         align-items: left;
         top: auto;
@@ -301,6 +301,7 @@
         align-items: left;
         top: auto;
         bottom: auto;
+        left: 50%;
         left: 50%;
         margin-top: 280px;
         margin-left: 0px;
@@ -342,20 +343,14 @@
         bottom: auto;
         left: 50%;
         margin-top: 200px;
-            }
+          }
    
         }
 
-        .right {
-            position: fixed;
-            left: 60%;
-            top: 10%;
-        }
 
+        @media screen and (max-width: 1000px) {
 
-        @media screen and (max-width: 800px) {
-
-         h1{
+              h1{
         font-family: 'arial';
         font-style: italic;
         font-size: 18px;
@@ -397,7 +392,7 @@
 
         .mnu.flow{
         font-family: briar-display;
-        font-size: 14.30px;
+         font-size: 14.30px;
 
     }
     
@@ -418,7 +413,7 @@
             inset 0.3em 0.3em 0 0 var(--color);
             }
 
-
+            
         .meme {
         position: static;
         bottom: 0;
@@ -505,3 +500,4 @@
         }
 
     </style>
+
