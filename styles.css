@@ -44,8 +44,7 @@
     .mnu.flow{
         font-family: briar-display;
         font-size: 18.30px;
-
-    }
+        }
         
     .mnu {
             background-color: transparent;
@@ -136,6 +135,11 @@
 
 
      @media screen and (max-width: 1920px){
+
+        img{
+                max-width: 300px;
+                height: auto;
+            }
             
             .meme {
         position: absolute;
@@ -148,13 +152,8 @@
         margin-left: 10%;
         
             }
-
-            img{
-                max-width: 400px;
-                height: auto;
-            }
    
-        }
+
 
         .right{
             position: fixed;
@@ -345,6 +344,12 @@
         margin-top: 200px;
             }
    
+        }
+
+        .right {
+            position: fixed;
+            left: 60%;
+            top: 10%;
         }
 
 
