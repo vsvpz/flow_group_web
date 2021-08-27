@@ -357,7 +357,7 @@
               h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 18px;
+        font-size: 22px;
         margin-left: 10px;
         margin-right: 10px;
         color: #ef4d4b;
@@ -386,7 +386,7 @@
             position: fixed;
             display: flex;
             justify-content: center;
-            text-align: left;
+            text-align: center;
             top: 250px;
             left: 0.5%;
             bottom: 0;
@@ -463,7 +463,7 @@
                 display: flex;
                 position: static;
             justify-content: center;
-        padding-top: 100px;
+        padding-top: 120px;
         margin-left: 10px;
             }
 
