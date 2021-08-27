@@ -150,8 +150,7 @@
         
             }
 
-
-        img{
+            img{
                 max-width: 400px;
                 height: auto;
             }
@@ -211,29 +210,8 @@
    
         }
 
+        @media screen and (max-width: 1024px){
 
-         @media screen and (max-width: 1024spx){
-
-            h1{
-        font-family: 'arial';
-        font-style: italic;
-        font-size: 30px;
-        color: #ef4d4b;
-        }
-
-        p{
-        font-family: 'arial';
-        font-style: italic;
-        font-size: 30px;
-        color: #1b4b6e;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        text-align: center;
-        }
-
-        p:hover{
-                color: #ef4d4b;
-        }
         
             
             .meme {
@@ -387,7 +365,7 @@
             display: flex;
             justify-content: center;
             text-align: left;
-            top: 250px;
+            top: 290px;
             left: 0.5%;
             bottom: 0;
             right: 0;
@@ -431,8 +409,8 @@
             }
 
             img{
-                max-width: 400px;
-                height: 200px;
+                max-width: 260px;
+                height: auto;
                 display: flex;
             justify-content: center;
             }
@@ -504,3 +482,4 @@
         }
 
     </style>
+
