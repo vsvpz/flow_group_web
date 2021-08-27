@@ -209,7 +209,7 @@
    
         }
 
-        @media screen and (max-width: 1400px){
+        @media screen and (max-width: 1025px){
 
         h1{
         font-family: 'arial';
@@ -235,11 +235,11 @@
             .meme {
         position: absolute;
         display: flex;
-        justify-content: left;
-        align-items: left;
+        justify-content: center;
+        align-items: center;
         bottom: 0;
         left: 0;
-        margin-left: 10%;
+        margin-left: 0;
         
             }
 
@@ -348,7 +348,7 @@
         }
 
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 800px) {
 
          h1{
         font-family: 'arial';
