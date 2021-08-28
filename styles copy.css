@@ -41,7 +41,7 @@
             justify-content: center;
             }
 
-    .mnu.flow{
+            .mnu.flow{
         font-family: briar-display;
         font-size: 18.30px;
 
@@ -71,6 +71,7 @@
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             color: #1b4b6e;
             }
+
 
         .btn.yes{
             background-color: #ef4d4b;
@@ -136,7 +137,7 @@
 
 
      @media screen and (max-width: 1920px){
-            
+
             .meme {
         position: absolute;
         display: flex;
@@ -150,12 +151,13 @@
         
             }
 
-            img{
-                max-width: 400px;
+
+        img{
+                max-width: 450px;
                 height: auto;
             }
    
-        }
+        
 
         .right{
             position: fixed;
@@ -165,7 +167,7 @@
             left: 50%;
             bottom: 0;
             right: 0;
-            margin-top: 20%;
+            margin-top: 25%;
             padding-right: 5%;
             }
 
@@ -182,7 +184,7 @@
             margin-left: 0px;
         }
 
-        }
+        
 
         .button-resources{
         position: fixed;
@@ -210,132 +212,13 @@
    
         }
 
-        @media screen and (max-width: 1024px){
 
-        
-            
-            .meme {
-        position: absolute;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        bottom: 0;
-        left: 0;
-        margin-left: 10%;
-         }
+         @media screen and (max-width: 1024px){
 
-            img{
-                max-width: 400px;
-                height: auto;
-            }
-
-            .body-text{
-
-            position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        margin-top: 80px;
-
-            }
-
-            .two{
-                position: fixed;
-                display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        margin-top: 20px;
-            }
-
-            .question{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        margin-left: 0px;
-            margin-right: 0px;
-            }
-
-            .answers{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        padding-top: 100px;
-        margin-left: 0px;
-            }
-
-            .answers-two{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        left: 50%;
-        margin-top: 280px;
-        margin-left: 0px;
-            }
-   
-    
-
-            .recenter-button{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        margin-top: 60px;
-        margin-left: 0px;
-            }
-
-            .resources-button{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        margin-top: 300px;
-        margin-left: 0px;
-            }
-
-
-            .note{
-                position: fixed;
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        top: auto;
-        bottom: auto;
-        left: 50%;
-        margin-top: 200px;
-          }
-   
-        }
-
-
-        @media screen and (max-width: 800px) {
-
-              h1{
+             h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 18px;
+        font-size: 28px;
         margin-left: 10px;
         margin-right: 10px;
         color: #ef4d4b;
@@ -364,35 +247,12 @@
             position: fixed;
             display: flex;
             justify-content: center;
-            text-align: left;
-            top: 290px;
+            text-align: center;
+            top: 250px;
             left: 0.5%;
             bottom: 0;
             right: 0;
             padding-right: 0;
-            }
-
-        .mnu.flow{
-        font-family: briar-display;
-         font-size: 14.30px;
-
-    }
-    
-        .mnu {
-            background-color: transparent;
-            border: 1px solid;
-            line-height: 1;
-            margin: 0.5em;
-            padding: 0.5em 1em;
-            font-family: 'arial';
-            font-style: regular;
-            font-size: 14px;
-            color: #ef4d4b;
-            cursor: pointer;
-            display: inline-block;
-            box-shadow: 
-            0.3em 0.3em 0 0 var(--color),
-            inset 0.3em 0.3em 0 0 var(--color);
             }
 
             
@@ -409,8 +269,8 @@
             }
 
             img{
-                max-width: 260px;
-                height: auto;
+                max-width: 600px;
+                height: 300px;
                 display: flex;
             justify-content: center;
             }
@@ -441,7 +301,7 @@
                 display: flex;
                 position: static;
             justify-content: center;
-        padding-top: 140px;
+        padding-top: 120px;
         margin-left: 10px;
             }
 
@@ -476,10 +336,151 @@
             }
    
         }
+
+
+        @media screen and (max-width: 800px){
+
+              h1{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #ef4d4b;
+        }
+
+        h2{
+            margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        p{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 18px;
+        color: #1b4b6e;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        }
+
+        p:hover{
+                color: #ef4d4b;
+        }
+
+        .right{
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            top: 250px;
+            left: 0.5%;
+            bottom: 0;
+            right: 0;
+            padding-right: 0;
+            }
+
+        .mnu.flow{
+        font-family: briar-display;
+         font-size: 14.30px;
+        }
+    
+        .mnu{
+            background-color: transparent;
+            border: 1px solid;
+            line-height: 1;
+            margin: 0.5em;
+            padding: 0.5em 1em;
+            font-family: 'arial';
+            font-style: regular;
+            font-size: 14px;
+            color: #ef4d4b;
+            cursor: pointer;
+            display: inline-block;
+            box-shadow: 
+            0.3em 0.3em 0 0 var(--color),
+            inset 0.3em 0.3em 0 0 var(--color);
+            }
+
+            
+        .meme{
+        position: static;
+        bottom: 0;
+        left: auto;
+        right: auto;
+        margin-top: 30px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        }
+
+            img{
+                max-width: 400px;
+                height: 200px;
+                display: flex;
+            justify-content: center;
+            }
+
+        .body-text{
+            display: flex;
+            justify-content: center;
+        margin-top: 50px;
+            }
+
+            .two{
+                display: flex;
+            justify-content: center;
+            position: fixed;
+        margin-top: 170px;
+            }
+
+            .question{
+                position: fixed;
+                display: flex;
+            justify-content: center;
+            }
+
+            .answers{
+                display: flex;
+                position: static;
+            justify-content: center;
+        padding-top: 140px;
+        padding-top: 100px;
+        margin-left: 10px;
+            }
+
+            .answers-two{
+                display: flex;
+            justify-content: center;
+            position: fixed;
+        margin-top: 240px;
+        margin-left: 10px;
+            }
+   
+            .recenter-button{
+                display: flex;
+            justify-content: center;
+        margin-top: 90px;
+        margin-left: 10px;
+            }
+
+            .resources-button{
+                position: fixed;
+                display: flex;
+            justify-content: center;
+        margin-left: 41px;
+            }
+
+            .note{
+                display: flex;
+            justify-content: center;
+        margin-top: 20%;
+            }
+   
+        }
     
             }
    
         }
 
     </style>
-

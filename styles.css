@@ -150,13 +150,12 @@
         
             }
 
-
-        img{
-                max-width: 450px;
+            img{
+                max-width: 400px;
                 height: auto;
             }
    
-        
+        }
 
         .right{
             position: fixed;
@@ -166,7 +165,7 @@
             left: 50%;
             bottom: 0;
             right: 0;
-            margin-top: 25%;
+            margin-top: 20%;
             padding-right: 5%;
             }
 
@@ -183,7 +182,7 @@
             margin-left: 0px;
         }
 
-        
+        }
 
         .button-resources{
         position: fixed;
@@ -211,130 +210,121 @@
    
         }
 
+        @media screen and (max-width: 1024px){
 
-         @media screen and (max-width: 1024px){
-
-
-
-             h1{
-        font-family: 'arial';
-        font-style: italic;
-        font-size: 28px;
-        margin-left: 10px;
-        margin-right: 10px;
-        color: #ef4d4b;
-        }
-
-        h2{
-            margin-left: 10px;
-        margin-right: 10px;
-        }
-
-        p{
-        font-family: 'arial';
-        font-style: italic;
-        font-size: 18px;
-        color: #1b4b6e;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        text-align: center;
-        }
-
-        p:hover{
-                color: #ef4d4b;
-        }
-
-        .right{
-            position: fixed;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            top: 250px;
-            left: 0.5%;
-            bottom: 0;
-            right: 0;
-            padding-right: 0;
-            }
-
-            
-        .meme {
-        position: static;
-        bottom: 0;
-        left: auto;
-        right: auto;
-        margin-top: 30px;
-        margin-left: 0;
+        
+            .meme {
+        position: absolute;
         display: flex;
-        justify-content: center;
-
-            }
+        justify-content: left;
+        align-items: left;
+        bottom: 0;
+        left: 0;
+        margin-left: 10%;
+         }
 
             img{
-                max-width: 600px;
-                height: 300px;
-                display: flex;
-            justify-content: center;
+                max-width: 400px;
+                height: auto;
             }
 
-        }
+            .body-text{
 
+            position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 80px;
 
-        .body-text{
-            display: flex;
-            justify-content: center;
-        margin-top: 50px;
             }
 
             .two{
+                position: fixed;
                 display: flex;
-            justify-content: center;
-            position: fixed;
-        margin-top: 170px;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        margin-top: 20px;
             }
 
             .question{
                 position: fixed;
-                display: flex;
-            justify-content: center;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-left: 0px;
+            margin-right: 0px;
             }
 
             .answers{
-                display: flex;
-                position: static;
-            justify-content: center;
-        padding-top: 120px;
-        margin-left: 10px;
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        padding-top: 100px;
+        margin-left: 0px;
             }
 
             .answers-two{
-                display: flex;
-            justify-content: center;
-            position: fixed;
-        margin-top: 240px;
-        margin-left: 10px;
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        left: 50%;
+        margin-top: 280px;
+        margin-left: 0px;
             }
    
     
 
             .recenter-button{
-                display: flex;
-            justify-content: center;
-        margin-top: 90px;
-        margin-left: 10px;
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 60px;
+        margin-left: 0px;
             }
 
             .resources-button{
                 position: fixed;
-                display: flex;
-            justify-content: center;
-        margin-left: 41px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 300px;
+        margin-left: 0px;
             }
 
+
             .note{
-                display: flex;
-            justify-content: center;
-        margin-top: 20%;
-            }
+                position: fixed;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        top: auto;
+        bottom: auto;
+        left: 50%;
+        margin-top: 200px;
+          }
    
         }
 
@@ -344,10 +334,11 @@
               h1{
         font-family: 'arial';
         font-style: italic;
-        font-size: 22px;
+        font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
         color: #ef4d4b;
+        text-align: center;
         }
 
         h2{
@@ -373,7 +364,7 @@
             position: fixed;
             display: flex;
             justify-content: center;
-            text-align: center;
+            text-align: left;
             top: 250px;
             left: 0.5%;
             bottom: 0;
@@ -450,7 +441,7 @@
                 display: flex;
                 position: static;
             justify-content: center;
-        padding-top: 120px;
+        padding-top: 140px;
         margin-left: 10px;
             }
 
@@ -491,3 +482,4 @@
         }
 
     </style>
+
