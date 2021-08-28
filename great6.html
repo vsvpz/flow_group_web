@@ -17,14 +17,19 @@
         @media screen and (max-width: 1920px){
             .btn.yes{
                 width: 220px;
-                position: fixed;
-                display: flex;
+                position: relative;
+              
                 top: 55%;
+                margin-top: 20px;
             }
 
             .resources-button{
                 margin-left: 0;
+                margin-top: 20px;
+                padding-top: 20px;
+                text-decoration: none;
             }
+
 
             h2{
         font-family: 'arial';
@@ -37,23 +42,23 @@
 
         @media screen and (max-width: 1000px){
             .btn.yes{
-                width: 140px;
+                width: 220px;
                 position: fixed;
                 display: flex;
                 top: 66%;
-                left: 10px;
+                left: 36%;
+                justify-content: center;
+                align-items: center;
             }
 
-            .resources-button{
-                margin-left: 0;
-            }
 
             .note{
-                width: 300px;
                 position: fixed;
                 display: flex;
+                justify-content: center;
                 top: 65%;
-                left: 10px;
+                left: auto;
+                right: auto;
             }
 
             h2{
@@ -63,6 +68,37 @@
         font-weight: 100;
         color: #ef4d4b;
         margin: 0;
+        }
+
+        @media screen and (max-width: 800px){
+            .btn.yes{
+                width: 140px;
+                position: fixed;
+                display: flex;
+                top: 70%;
+                left: 31%;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .note{
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                top: 50%;
+                left: auto;
+                right: auto;
+            }
+
+            h2{
+        font-family: 'arial';
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 100;
+        color: #ef4d4b;
+        margin: 0;
+        text-align: center;
         }
 
         }

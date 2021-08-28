@@ -178,6 +178,14 @@
             margin-right: 0px;
         }
 
+        .body-text{
+            position: relative;
+            display: flex;
+            justify-content: center;
+        margin-top: 80px;
+        text-align: left;
+            }
+
         .answers{
             margin-left: 0px;
         }
@@ -204,7 +212,7 @@
         align-items: left;
         top: auto;
         bottom: auto;
-        left: 50%;
+        
         margin-top: 200px;
             }
    
@@ -238,6 +246,7 @@
         bottom: auto;
         left: 50%;
         margin-top: 80px;
+        text-align: left;
 
             }
 
@@ -300,6 +309,7 @@
         left: 50%;
         margin-top: 60px;
         margin-left: 0px;
+        text-decoration: none;
             }
 
             .resources-button{
@@ -364,12 +374,12 @@
             justify-content: center;
             }
 
-
-
-        .body-text{
+            .body-text{
+            position: relative;
             display: flex;
             justify-content: center;
-        margin-top: 50px;
+        margin-top: 67px;
+        text-align: center;
             }
 
             .two{
@@ -386,6 +396,8 @@
             margin-left: 10px;
             margin-right: 10px;
             }
+
+
 
             .answers{
                 display: flex;
@@ -407,9 +419,11 @@
 
             .recenter-button{
                 display: flex;
+                position: static;
             justify-content: center;
         margin-top: 90px;
-        margin-left: 10px;
+        margin-left: 0px;
+        text-decoration: none;
             }
 
             .resources-button{
@@ -419,11 +433,7 @@
         margin-left: 41px;
             }
 
-            .note{
-                display: flex;
-            justify-content: center;
-        margin-top: 20%;
-            }
+        
    
         }
 
@@ -453,6 +463,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
         text-align: center;
+        text-decoration: none;
         }
 
         p:hover{
@@ -517,11 +528,7 @@
         }
 
 
-        .body-text{
-            display: flex;
-            justify-content: center;
-        margin-top: 50px;
-            }
+        
 
             .two{
                 display: flex;
@@ -568,11 +575,7 @@
         margin-left: 41px;
             }
 
-            .note{
-                display: flex;
-            justify-content: center;
-        margin-top: 20%;
-            }
+        
    
         }
     
